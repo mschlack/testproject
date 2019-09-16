@@ -1,0 +1,23 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschlack/testproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mschlack/testproject/issues"
+  },
+  "homepage": "https://github.com/mschlack/testproject#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

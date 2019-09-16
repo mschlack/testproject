@@ -1,0 +1,56 @@
+body  {
+    background: url("architecture-black-and-white-bridge-164357.jpg") center center;
+    width: 100%;
+    height: 100%;
+    
+}
+ #labels {
+    flex-grow: 1;
+}
+#inputs {
+    flex-grow: 1;
+   
+} 
+#container {
+    display: flex;
+    height: 50vh;
+}
+.send_message {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    font: large cursive;
+    color: grey;
+}
+select {
+    height: 50px;
+    width: 250px;
+    font: cursive;
+    font-size: large;
+    color: grey;
+
+}
+
+#labels > label {
+    font: xx-large cursive  ;
+    color: whitesmoke;
+    display: block;
+    text-align: right;
+}
+#inputs > input {
+    font: xx-large cursive;
+    background-color: darkgray;
+    color: blue;
+    display: block;
+}
+#inputs > select {
+    display: block;
+    
+}
+#inputs > textarea {
+    background-color: darkgrey;
+}
